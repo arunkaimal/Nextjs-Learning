@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <header className="grid grid-cols-2 h-8 bg-blue-950">
+    <header className="grid grid-cols-2 h-8">
       <div>My Page</div>
       <nav>
         <ul className="flex gap-4">

@@ -1,5 +1,11 @@
+import style from "../service/service.module.css";
+
 const Services = () => {
-  return <h1>Welcome to services</h1>;
+  return (
+    <>
+      <h1 className={style.title}>Welcome to services</h1>;
+    </>
+  );
 };
 
 export default Services;
